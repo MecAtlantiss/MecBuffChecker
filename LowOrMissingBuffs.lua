@@ -101,8 +101,6 @@ local function update_current_roster(group_size)
             current_roster[class] = current_roster[class] + 1
         end
     end
-
-    current_roster["Warlock"] = 1
 end
 
 local function check_for_raid()
